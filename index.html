@@ -136,6 +136,46 @@
       </div>
     </div>
   </div>
+  <hr>
+
+  <div class="card w-25">
+    <div class="header__card bg-dark py-2">
+      <h5 class="text-center text-white mb-0">BT6 : TÍNH TIỀN TÍP</h5>
+    </div>
+    <div class="body__card p-3">
+      <div class="header__card">
+        <p>Tổng tiền thanh toán</p>
+      </div>
+      <div class="body__card">
+        <span>$</span>
+        <input type="text" class="w-75" id="soTienTip" placeholder="Nhập Tổng Tiền">
+        <p>Bạn muốn típ bao nhiêu</p>
+        <div class="input-group">
+          <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+            <option selected>--Chọn để Tip..</option>
+            <option value="0.1" id="per10">10% Like</option>
+            <option value="0.2" id="per20">20% Lovely</option>
+            <option value="0.3" id="per30">30% Great</option>
+          </select>
+          <!-- <div class="input-group-append">
+                    <button id="btnClickTip" class="btn btn-outline-secondary" type="button">Click Choose</button>
+                  </div> -->
+        </div>
+        <p class="mb-0 mt-4">Muốn Share bao nhiêu người?</p>
+        <input type="text" placeholder="How many people?" id="chiaSoNguoi" class="w-75">
+        <span>người</span>
+        <button id="clickTip" class="btn btn-outline-danger mt-4 w-100">Calc Now!</button>
+        <br>
+      </div>
+    </div>
+    <div class="footer__tip text-center mt-3">
+      <h4>TIP AMOUNT</h4>
+      <span>$</span>
+      <span id="resultTip"></span>
+      <br>
+      <p>Mỗi Người</p>
+    </div>
+  </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
