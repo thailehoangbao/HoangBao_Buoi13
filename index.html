@@ -5,16 +5,82 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="./main.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      
+    <!-- Bài 1  -->
+    <div class="card w-25">
+      <div class="B1__header">
+        <h4 class="bg-dark text-white p-2 text-center">Tính Tiền Lương</h4>
+      </div>
+      <div class="B1__body p-4">
+        <div class="form-group">
+          <input type="number" name="number" id="salaryPerDay" value="100000" class="w-100">
+          <br>
+          <input type="number" name="number" id="day" class="w-100" placeholder="Nhập Số Ngày Làm">
+          <br>
+          <button class="btn btn-success mt-3 w-100" id="B1__btnClick">Click</button>
+        </div>
+      </div>
+      <div class="B1__footer p-4" id="B1__result">
+
+      </div>
+    </div>
+    <hr>
+    <!-- Bài 2  -->
+    <div class="card w-25">
+      <div class="B2__header">
+        <h4 class="bg-dark text-white p-2 text-center">Tính Trung Bình</h4>
+      </div>
+      <div class="B2__body p-4">
+        <div class="form-group">
+          <p class="mb-0">Input number1</p>
+          <input type="text" name="number1" id="number1" class="w-100 mb-2" placeholder="Number 1">
+          <br>
+          <p class="mb-0">Input number2</p>
+          <input type="text" name="number2" id="number2" class="w-100 mb-2" placeholder="Number 2">
+          <br>
+          <p class="mb-0">Input number3</p>
+          <input type="text" name="number3" id="number3" class="w-100 mb-2" placeholder="Number 3">
+          <br>
+          <p class="mb-0">Input number4</p>
+          <input type="text" name="number4" id="number4" class="w-100 mb-2" placeholder="Number 4">
+          <br>
+          <p class="mb-0">Input number5</p>
+          <input type="text" name="number5" id="number5" class="w-100 mb-2" placeholder="Number 5">
+          <br>
+          <button class="btn btn-success mt-3 w-100" id="B2__btnClick">Click</button>
+        </div>
+      </div>
+      <div class="B2__footer p-4" id="B2__result">
+
+      </div>
+    </div>
+    <hr>
+        <!-- Bài 3  -->
+        <div class="card w-25">
+          <div class="B3__header">
+            <h4 class="bg-dark text-white p-2 text-center">Quy Đổi $</h4>
+          </div>
+          <div class="B3__body p-4">
+            <div class="form-group">
+              <p class="mb-0">Nhập Tiền $</p>
+              <input type="text" name="doLa" id="doLa" class="w-100 mb-2" placeholder="Nhập tiền $">
+              <br>
+              <button class="btn btn-success mt-3 w-100" id="B3__btnClick">Nút Đổi Tiền</button>
+            </div>
+          </div>
+          <div class="B3__footer p-4" id="B3__result">
+    
+          </div>
+        </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
   </body>
 </html>

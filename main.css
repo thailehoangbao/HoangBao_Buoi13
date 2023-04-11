@@ -1,0 +1,23 @@
+.result-bt1 {
+    text-align: center;
+    background-color: rgb(47, 255, 54);
+    color: rgb(49, 46, 46);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.result-bt2 {
+    text-align: center;
+    background-color: rgb(255, 154, 47);
+    color: rgb(49, 46, 46);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.result-bt3 {
+    text-align: center;
+    background-color: rgb(227, 47, 255);
+    color: rgb(49, 46, 46);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
