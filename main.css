@@ -37,3 +37,16 @@
     font-size: 1rem;
     font-weight: 700;
 }
+
+.result-bt6 {
+    text-align: center;
+    background-color: rgb(235, 34, 61);
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.doLaIcon {
+    font-size: 2rem;
+    font-weight: 300;
+}

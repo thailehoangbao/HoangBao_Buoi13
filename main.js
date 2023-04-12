@@ -156,4 +156,5 @@ clickTip.onclick = function () {
     var inputGroupSelect04 = document.getElementById('inputGroupSelect04').value;
     var calcTip = (soTienTip * inputGroupSelect04) / chiaSoNguoi;
     document.getElementById('resultTip').innerHTML = calcTip;
+    document.getElementById('resultTip').classList.add('result-bt6');
 };
